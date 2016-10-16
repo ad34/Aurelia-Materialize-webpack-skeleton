@@ -1,0 +1,14 @@
+<template>
+  <require from="./components/nav-bar/nav-bar.html"></require>
+   <require from="./components/footer/footer.html"></require>
+  
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div class="page-host">
+    <router-view></router-view>   
+    <footer-view></footer-view>
+
+  </div>
+
+
+</template>
